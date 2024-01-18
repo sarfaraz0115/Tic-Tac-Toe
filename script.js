@@ -59,6 +59,8 @@ const checkTie = () =>{
             box.disabled = true;
             lose.play();
         })
+        winnerCard.innerText = 'Tie';
+        newGameButton.style.display = 'inline';
     }
 }
 
